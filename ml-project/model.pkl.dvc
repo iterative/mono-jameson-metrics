@@ -1,10 +1,10 @@
-md5: a0c8af329810cfbd29eeb2df93821e5a
+md5: e72e709fc2852307a5a3b5551313b98b
 cmd: sed -e 's/data/USERS data/' users.csv > model.pkl; mv m.tmp metrics.json
 deps:
 - md5: a2f8b6a209a79ab928c3667a6ce46de8
   path: users.csv
 outs:
-- md5: f7c37df3d7d3f1439b687f7f5698541a
+- md5: e4433012582e2a8e7e0d6d165037376d
   path: metrics.json
   cache: false
   metric: true
